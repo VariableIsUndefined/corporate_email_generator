@@ -38,4 +38,16 @@ public class Employee {
     public String getPassword() {
         return password;
     }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", department=" + department.getName() +
+                ", company='" + company + '\'' +
+                ", email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                '}';
+    }
 }
