@@ -33,8 +33,6 @@ public class Main {
                 department,
                 company
         );
-        System.out.println(employee.getEmail());
-        System.out.println(employee.getPassword());
-        System.out.println(employee.getDepartment());
+        System.out.println(employee);
     }
 }
